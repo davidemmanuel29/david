@@ -1,0 +1,117 @@
+*{
+
+}
+
+.bodyy{
+  display: flex; justify-content: center; padding-top: 5%; width: 50%;
+}
+
+
+  .container{ 
+    
+    border: 2px solid black; width: 40%; height: 100%;
+    background: #3a4452; border-radius: 30px; 
+  }
+  input{
+    width: 100px; height: 50px; padding-top: 10px; margin: 6px; font-family: Verdana, Geneva, Tahoma, sans-serif; border-radius: 25px; font-weight: bolder; font-size: larger;
+  } 
+  input.hover{
+    background-color: red;
+    
+  }
+  .calculator{
+    width: 100rem; padding: 20px; display: flex; justify-content: center; 
+  }
+  .display{
+    width: 100.99%; display: flex; justify-content: flex-end; margin: 20px 0; text-align: right;
+  }
+  .calculator form input{
+    border: 0; outline: 0; box-shadow: 20px; cursor: pointer; margin: 10px;  
+  }
+  .equals{
+    width: 40.5%;
+  }
+  
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 100; color: antiquewhite;
+  }
+  
+  
+  
+
+
+@media (max-width: 900px ) {
+
+  .bodyy{
+    display: flex; justify-content: center; padding-top: 5%; width: 100%;
+  }
+  
+  .container{ 
+    display: flex; justify-content: center; align-items: center;
+    border: 2px solid black; width: 57%; height: 50%;
+    background: #3a4452; border-radius: 15px; 
+  }
+  input{
+    width: 50px; height: 25px; padding-top: 5px; margin: 2px; font-family: Verdana, Geneva, Tahoma, sans-serif; border-radius: 15px; font-weight: bolder; font-size: small;
+  } 
+  input.hover{
+    background-color: red;
+    
+  }
+  .calculator{
+    width: 50rem; padding: 10px; display: flex; justify-content: center
+  }
+  .display{
+    width: 70.99%; display: flex; justify-content: flex-end; margin: 10px 0; text-align: right;
+  }
+  .calculator form input{
+    border: 0; outline: 0; box-shadow: 20px; cursor: pointer; margin: 5px;  
+  }
+  .equals{
+    width: 20.5%;
+  }
+  
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 50; color: antiquewhite;
+  }
+}
+
+
+
+@media (min-width: 900px) {
+
+  .bodyy{
+    display: flex; justify-content: center; padding-top: 5%; width: 95%;
+  }
+  
+  .container{ 
+    display: flex; justify-content: center; align-items: center;
+    border: 2px solid black; width: 55%; height: 100%;
+    background: #3a4452; border-radius: 30px; 
+  }
+  input{
+    width: 80px; height: 50px; padding-top: 10px; margin: 6px; font-family: Verdana, Geneva, Tahoma, sans-serif; border-radius: 25px; font-weight: bolder; font-size: larger;
+  } 
+  input.hover{
+    background-color: red;
+    
+  }
+  .calculator{
+    width: 100rem; padding: 20px; display: flex; justify-content: center
+  }
+  .display{
+    width: 85.99%; display: flex; justify-content: flex-end; margin: 20px 0; text-align: right;
+  }
+  .calculator form input{
+    border: 0; outline: 0; box-shadow: 20px; cursor: pointer; margin: 10px;  
+  }
+  .equals{
+    width: 31.5%;
+  }
+  
+  p{
+    font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 100; color: antiquewhite;
+  }
+  
+  }
+
